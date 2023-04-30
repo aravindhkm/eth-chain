@@ -1,0 +1,135 @@
+invalid command: "*"
+invalid command: "*"
+INFO [04-30|09:21:38.462] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [04-30|09:21:38.475] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [04-30|09:21:38.478] Set global gas cap                       cap=50,000,000
+INFO [04-30|09:21:38.481] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [04-30|09:21:38.482] Using leveldb as the backing database 
+INFO [04-30|09:21:38.482] Allocated cache and file handles         database=/home/aravind/Documents/Fork/private/data/geth/chaindata cache=512.00MiB handles=524,288
+INFO [04-30|09:21:38.498] Using LevelDB as the backing database 
+INFO [04-30|09:21:38.499] Opened ancient database                  database=/home/aravind/Documents/Fork/private/data/geth/chaindata/ancient/chain readonly=false
+INFO [04-30|09:21:38.500] Initialising Ethereum protocol           network=12345 dbversion=<nil>
+INFO [04-30|09:21:38.501]  
+INFO [04-30|09:21:38.501] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [04-30|09:21:38.501] Chain ID:  12345 (unknown) 
+INFO [04-30|09:21:38.501] Consensus: Clique (proof-of-authority) 
+INFO [04-30|09:21:38.501]  
+INFO [04-30|09:21:38.501] Pre-Merge hard forks (block based): 
+INFO [04-30|09:21:38.501]  - Homestead:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [04-30|09:21:38.501]  - Tangerine Whistle (EIP 150): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [04-30|09:21:38.501]  - Spurious Dragon/1 (EIP 155): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [04-30|09:21:38.501]  - Spurious Dragon/2 (EIP 158): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [04-30|09:21:38.501]  - Byzantium:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [04-30|09:21:38.501]  - Constantinople:              #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [04-30|09:21:38.501]  - Petersburg:                  #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [04-30|09:21:38.501]  - Istanbul:                    #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [04-30|09:21:38.501]  - Berlin:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [04-30|09:21:38.501]  - London:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [04-30|09:21:38.501]  
+INFO [04-30|09:21:38.501] The Merge is not yet available for this network! 
+INFO [04-30|09:21:38.501]  - Hard-fork specification: https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [04-30|09:21:38.501]  
+INFO [04-30|09:21:38.501] Post-Merge hard forks (timestamp based): 
+INFO [04-30|09:21:38.501]  
+INFO [04-30|09:21:38.501] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [04-30|09:21:38.501]  
+INFO [04-30|09:21:38.501] Loaded most recent local block           number=0 hash=404fa1..d6d114 td=1 age=54y1mo1w
+WARN [04-30|09:21:38.501] Failed to load snapshot                  err="missing or corrupted snapshot"
+INFO [04-30|09:21:38.501] Rebuilding state snapshot 
+INFO [04-30|09:21:38.502] Resuming state snapshot generation       root=37d953..87e580 accounts=0 slots=0 storage=0.00B dangling=0 elapsed="212.57µs"
+INFO [04-30|09:21:38.502] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-30|09:21:38.502] Generated state snapshot                 accounts=3 slots=0 storage=148.00B dangling=0 elapsed="806.864µs"
+INFO [04-30|09:21:38.502] Gasprice oracle is ignoring threshold set threshold=2
+WARN [04-30|09:21:38.502] Error reading unclean shutdown markers   error="leveldb: not found"
+WARN [04-30|09:21:38.502] Engine API enabled                       protocol=eth
+WARN [04-30|09:21:38.503] Engine API started but chain not configured for merge yet 
+INFO [04-30|09:21:38.503] Stored checkpoint snapshot to disk       number=0 hash=404fa1..d6d114
+INFO [04-30|09:21:38.503] Starting peer-to-peer node               instance=Geth/v1.11.6-stable-ea9e62ca/linux-amd64/go1.20.3
+INFO [04-30|09:21:38.513] New local node record                    seq=1,682,826,698,512 id=492893f829616da6 ip=127.0.0.1 udp=30303 tcp=30303
+INFO [04-30|09:21:38.513] Started P2P networking                   self=enode://5e364abf2f972d4a968a012901bccf510d992e1acdac3bf7e9ddf5c4adce892d9782342e3fcce12a6cd16ae1b932ac6b366df148c02d46ff087ff3224e9dd504@127.0.0.1:30303
+INFO [04-30|09:21:38.515] IPC endpoint opened                      url=/home/aravind/Documents/Fork/private/data/geth.ipc
+INFO [04-30|09:21:38.515] Generated JWT secret                     path=/home/aravind/Documents/Fork/private/data/geth/jwtsecret
+INFO [04-30|09:21:38.515] HTTP server started                      endpoint=127.0.0.1:8545 auth=false prefix= cors=* vhosts=localhost
+INFO [04-30|09:21:38.516] WebSocket enabled                        url=ws://127.0.0.1:8551
+INFO [04-30|09:21:38.516] HTTP server started                      endpoint=127.0.0.1:8551 auth=true  prefix= cors=localhost vhosts=localhost
+WARN [04-30|09:21:38.546] Served eth_coinbase                      reqid=3 duration="18.498µs" err="etherbase must be explicitly specified"
+INFO [04-30|09:21:41.398] New local node record                    seq=1,682,826,698,513 id=492893f829616da6 ip=49.37.201.91 udp=30303 tcp=30303
+INFO [04-30|09:21:48.835] Looking for peers                        peercount=0 tried=175 static=0
+WARN [04-30|09:21:50.703] Snapshot extension registration failed   peer=2b236036 err="peer connected on snap without compatible eth support"
+INFO [04-30|09:21:58.964] Looking for peers                        peercount=0 tried=86  static=0
+INFO [04-30|09:22:09.177] Setting new local account                address=0xa263e3f4B79DE80b666d641Bb5470ea7f4D3737d
+INFO [04-30|09:22:09.177] Submitted transaction                    hash=0x547744da4bc52cd892a09977ca9ba84ad5172224dd50e150dfba8048baa51e60 from=0xa263e3f4B79DE80b666d641Bb5470ea7f4D3737d nonce=0 recipient=0xBc36C727c4109EDff0eB0924257a96d265648233 value=1000
+INFO [04-30|09:22:19.042] Looking for peers                        peercount=1 tried=135 static=0
+INFO [04-30|09:22:29.777] Looking for peers                        peercount=0 tried=42  static=0
+INFO [04-30|09:22:40.025] Looking for peers                        peercount=0 tried=131 static=0
+WARN [04-30|09:22:44.798] Served eth_sendRawTransaction            conn=127.0.0.1:59118 reqid=7880584244109896 duration="146.489µs" err="already known"
+INFO [04-30|09:22:50.025] Looking for peers                        peercount=1 tried=103 static=0
+INFO [04-30|09:23:00.096] Looking for peers                        peercount=0 tried=127 static=0
+INFO [04-30|09:23:20.118] Looking for peers                        peercount=1 tried=131 static=0
+INFO [04-30|09:23:30.147] Looking for peers                        peercount=0 tried=98  static=0
+INFO [04-30|09:24:00.184] Looking for peers                        peercount=0 tried=86  static=0
+INFO [04-30|09:24:10.200] Looking for peers                        peercount=1 tried=142 static=0
+INFO [04-30|09:24:21.164] Looking for peers                        peercount=0 tried=50  static=0
+INFO [04-30|09:24:31.417] Looking for peers                        peercount=0 tried=139 static=0
+WARN [04-30|09:24:34.072] Snapshot extension registration failed   peer=2b236036 err="peer connected on snap without compatible eth support"
+INFO [04-30|09:24:41.754] Looking for peers                        peercount=0 tried=71  static=0
+INFO [04-30|09:24:51.818] Looking for peers                        peercount=1 tried=107 static=0
+INFO [04-30|09:25:01.866] Looking for peers                        peercount=0 tried=149 static=0
+INFO [04-30|09:25:12.622] Looking for peers                        peercount=0 tried=36  static=0
+INFO [04-30|09:25:23.169] Looking for peers                        peercount=0 tried=92  static=0
+INFO [04-30|09:25:33.273] Looking for peers                        peercount=0 tried=102 static=0
+WARN [04-30|09:25:40.283] Snapshot extension registration failed   peer=c1bb7cc4 err="peer connected on snap without compatible eth support"
+INFO [04-30|09:25:43.341] Looking for peers                        peercount=2 tried=201 static=0
+INFO [04-30|09:26:13.617] Looking for peers                        peercount=0 tried=120 static=0
+INFO [04-30|09:26:24.230] Looking for peers                        peercount=0 tried=99  static=0
+INFO [04-30|09:26:34.240] Looking for peers                        peercount=0 tried=139 static=0
+INFO [04-30|09:26:44.438] Looking for peers                        peercount=0 tried=140 static=0
+WARN [04-30|09:26:50.065] Snapshot extension registration failed   peer=6ec80bbf err="peer connected on snap without compatible eth support"
+INFO [04-30|09:26:54.646] Looking for peers                        peercount=0 tried=118 static=0
+INFO [04-30|09:27:05.058] Looking for peers                        peercount=0 tried=112 static=0
+INFO [04-30|09:27:15.256] Looking for peers                        peercount=0 tried=127 static=0
+INFO [04-30|09:27:25.278] Looking for peers                        peercount=0 tried=115 static=0
+WARN [04-30|09:27:28.370] Served eth_sendRawTransaction            conn=127.0.0.1:55778 reqid=9527059753204    duration="144.804µs" err="replacement transaction underpriced"
+INFO [04-30|09:27:35.334] Looking for peers                        peercount=0 tried=113 static=0
+INFO [04-30|09:27:45.346] Looking for peers                        peercount=0 tried=122 static=0
+INFO [04-30|09:27:55.375] Looking for peers                        peercount=0 tried=86  static=0
+INFO [04-30|09:28:05.511] Looking for peers                        peercount=0 tried=117 static=0
+INFO [04-30|09:28:15.548] Looking for peers                        peercount=1 tried=147 static=0
+INFO [04-30|09:28:25.620] Looking for peers                        peercount=0 tried=122 static=0
+WARN [04-30|09:28:34.046] Snapshot extension registration failed   peer=081950b6 err="peer connected on snap without compatible eth support"
+INFO [04-30|09:28:35.621] Looking for peers                        peercount=1 tried=132 static=0
+INFO [04-30|09:28:55.900] Looking for peers                        peercount=0 tried=210 static=0
+INFO [04-30|09:29:06.275] Looking for peers                        peercount=0 tried=97  static=0
+INFO [04-30|09:29:16.747] Looking for peers                        peercount=0 tried=102 static=0
+INFO [04-30|09:29:26.863] Looking for peers                        peercount=1 tried=150 static=0
+INFO [04-30|09:29:36.924] Looking for peers                        peercount=1 tried=102 static=0
+INFO [04-30|09:29:47.254] Looking for peers                        peercount=0 tried=98  static=0
+INFO [04-30|09:30:07.310] Looking for peers                        peercount=2 tried=166 static=0
+INFO [04-30|09:30:17.348] Looking for peers                        peercount=0 tried=108 static=0
+INFO [04-30|09:30:27.875] Looking for peers                        peercount=0 tried=128 static=0
+INFO [04-30|09:30:38.229] Looking for peers                        peercount=0 tried=145 static=0
+WARN [04-30|09:30:38.693] Snapshot extension registration failed   peer=2b236036 err="peer connected on snap without compatible eth support"
+INFO [04-30|09:30:48.271] Looking for peers                        peercount=0 tried=94  static=0
+INFO [04-30|09:30:58.501] Looking for peers                        peercount=0 tried=125 static=0
+INFO [04-30|09:31:09.417] Looking for peers                        peercount=0 tried=106 static=0
+INFO [04-30|09:31:19.467] Looking for peers                        peercount=0 tried=105 static=0
+INFO [04-30|09:31:29.475] Looking for peers                        peercount=0 tried=146 static=0
+INFO [04-30|09:31:39.538] Looking for peers                        peercount=0 tried=190 static=0
+WARN [04-30|09:31:47.299] Snapshot extension registration failed   peer=5265848a err="peer connected on snap without compatible eth support"
+INFO [04-30|09:31:49.557] Looking for peers                        peercount=0 tried=128 static=0
+INFO [04-30|09:31:59.583] Looking for peers                        peercount=1 tried=63  static=0
+WARN [04-30|09:31:59.623] Snapshot extension registration failed   peer=4343ac17 err="peer connected on snap without compatible eth support"
+INFO [04-30|09:32:19.961] Looking for peers                        peercount=0 tried=139 static=0
+INFO [04-30|09:32:30.226] Looking for peers                        peercount=1 tried=108 static=0
+WARN [04-30|09:32:34.481] Snapshot extension registration failed   peer=101502b5 err="peer connected on snap without compatible eth support"
+INFO [04-30|09:32:50.259] Looking for peers                        peercount=0 tried=117 static=0
+INFO [04-30|09:33:00.297] Looking for peers                        peercount=0 tried=96  static=0
+INFO [04-30|09:33:10.478] Looking for peers                        peercount=0 tried=92  static=0
+INFO [04-30|09:33:20.496] Looking for peers                        peercount=0 tried=101 static=0
+INFO [04-30|09:33:30.526] Looking for peers                        peercount=1 tried=106 static=0
+INFO [04-30|09:33:40.546] Looking for peers                        peercount=1 tried=109 static=0
+INFO [04-30|09:33:50.549] Looking for peers                        peercount=1 tried=48  static=0
+INFO [04-30|09:34:00.552] Looking for peers                        peercount=1 tried=124 static=0
+INFO [04-30|09:34:10.603] Looking for peers                        peercount=0 tried=165 static=0
+WARN [04-30|09:34:17.113] Snapshot extension registration failed   peer=05180ebe err="peer connected on snap without compatible eth support"
+INFO [04-30|09:34:21.842] Looking for peers                        peercount=0 tried=90  static=0
